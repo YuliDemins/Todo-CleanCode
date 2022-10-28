@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -93,12 +93,12 @@ body {
 }
 
 .todo__list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .todo-item {
-  list-style:none;
+  list-style: none;
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -120,7 +120,7 @@ body {
 }
 
 .todo-item__task-input {
-  display:none;
+  display: none;
 width: 226px;
 margin: 0;
 font-size: 18px;
@@ -143,7 +143,7 @@ color: #888;
   width: 60px;
   font-family: Lato, sans-serif;
   cursor: pointer;
-  outline:none;
+  outline: none;
 }
 
 .todo-item__edit:hover,
@@ -187,11 +187,11 @@ li > * {
 }
 
 .editmode .todo-item__task-input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .editmode .todo-item__task-label {
-  display:none;
+  display: none;
 }
 
